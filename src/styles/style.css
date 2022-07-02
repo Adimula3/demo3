@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 .navbar {
     padding: 20px;
@@ -81,6 +82,8 @@
 
 .press {
     margin-top: 200px;
+    justify-content: center;
+    text-align: center;
 }
 .press .press_img {
     width: 117px;
@@ -208,4 +211,139 @@
 .section2 .arrow i {
    font-size: 50px;
     font-weight: 200;
+}
+
+.section3 {
+    margin-top: 60px;
+}
+.section3 img {
+    width: 1441px;
+    height: 884px;
+    z-index: 5;
+}
+#rel2 {
+    z-index: 2;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    bottom: 590px;
+    background-color: transparent;
+    margin: 0px 50px 0px 50px
+}
+.section3 p {
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+}
+.section3 .btn {
+    background: #165A4A;
+    border: 1px solid #165A4A;
+    padding: 12px 32px;
+}
+.section4 {
+    background: #F7F7F7;
+    padding-bottom: 70px;
+}
+.section4 .card {
+    width: 413px;
+    height: 676px;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .card .card-body {
+    background: #EBF0EF;
+    color: black;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.section4 .card .card-body .card-title {
+    font-size: 32px;
+}
+.section4 .card .card-body .weeks {
+    font-size: 14px;
+}
+.section4 .card .card-body .btn {
+    background: #165A4A;
+    border: 1px solid #165A4A;
+    padding: 12px 32px;
+}
+.section4 .left {
+    padding-left: 180px;
+}
+.section4 .right {
+    padding-top: 100px;
+}
+.section4 h1 {
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+.section5 {
+    margin-bottom: 0;
+}
+.section5 h1 {
+    font-size: 64px;
+    color: black;
+    text-align: left;
+}
+.section5 p {
+    font-size: 24px;
+    text-align: left;
+}
+.section5 .btn {
+    background: transparent;
+    color: #001D16;
+    border: 1px solid #001D16;
+    padding: 12px 22px 12px 22px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: left;
+}
+.section5 .right22{
+    text-align: left;
+}
+.right23 {
+    margin-left: 70px;
+}
+.section5 .right2 {
+    margin-top: 200px;
+}
+.section5 .left2 {
+    padding-bottom: 20px;
+}
+.left2 .inner1 {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.left2 .inner2 {
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+.section6{
+    background: #02251D;
+    height: 400px;
+    margin-top: 0;
+}
+.section6 h1 {
+    font-size: 64px;
+    padding-top: 50px;
+}
+.section6 .wrap {
+    text-align: left;
+}
+.section6 .btn {
+    background: #fff;
+    color: #001D16;
+    border: 1px solid #001D16;
+    padding: 12px 22px 12px 22px;
+    margin-top: 50px;
+    text-align: left;
+}
+.section6 p {
+    color: #ffff;
+    padding-top: 200px;
+    font-size: 90px;
+    font-family: 'Lato';
 }

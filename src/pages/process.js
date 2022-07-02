@@ -82,6 +82,119 @@ function Process() {
                     <button type="button" className="btn btn-primary">Get your estimate</button>
                 </div>
             </div>
+            <section className="section3">
+                <div className="container-fluid">
+                    <img src={require('../assets/Background.png')} alt="" />
+                    <div id="rel2">
+                        <p>Renovate your home as<br/> love as 0% APR</p>
+                        <button type="button" className="btn btn-primary">Explore financing</button>
+                    </div>
+                </div>
+            </section>
+            <section className="section4">
+                <div className="container">
+                    <h1>Our Options</h1>
+                    <Row>
+                        <Col className="left" lg={6}>
+                            <div className="card" >
+                                <img src={require('../assets/section41.png')} className="card-img-top" alt="" />
+                                    <div className="card-body">
+                                        <h5 className="card-title">Bathroom</h5>
+                                        <p className="weeks">4 WEEKS TO BUILD</p>
+                                        <p className="card-text">Build your dream bathroom with premium fixtures and finishes.</p>
+                                        <button type="button" className="btn btn-primary">Learn more</button>
+                                    </div>
+                            </div>
+                            <div className="card" >
+                                <img src={require('../assets/section42.png')} className="card-img-top" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Kitchen</h5>
+                                    <p className="weeks">6 WEEKS TO BUILD</p>
+                                    <p className="card-text">Create your ideal kitchen with quality, lasting materials.</p>
+                                    <button type="button" className="btn btn-primary">Learn more</button>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col className="right" lg={6}>
+                            <div className="card" >
+                                <img src={require('../assets/section43.png')} className="card-img-top" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Backyard</h5>
+                                    <p className="weeks">5 WEEKS TO BUILD</p>
+                                    <p className="card-text">Create your backyard getaway with durable materials and beautiful finishes.</p>
+                                    <button type="button" className="btn btn-primary">Learn more</button>
+                                </div>
+                            </div>
+                            <div className="card" >
+                                <img src={require('../assets/section44.png')} className="card-img-top" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Basement</h5>
+                                    <p className="weeks">7 WEEKS TO BUILD</p>
+                                    <p className="card-text">Create your backyard getaway with durable materials and beautiful finishes.</p>
+                                    <button type="button" className="btn btn-primary">Learn more</button>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </section>
+            <section className="section5">
+                <div className="container">
+                    <Row>
+                        <Col className="left2" lg={6}>
+                            <Row>
+                                <Col  md={6}>
+                                    <img src={require('../assets/Image6.png')} alt=""/>
+                                </Col>
+                                <Col md={6}>
+                                    <img src={require('../assets/Image1.png')} alt=""/>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={6}>
+                                    <img className="inner1" src={require('../assets/Image2.png')} alt=""/>
+                                </Col>
+                                <Col md={6}>
+                                    <img className="inner2"  src={require('../assets/Image3.png')} alt=""/>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={6}>
+                                    <img src={require('../assets/Image4.png')} alt=""/>
+                                </Col>
+                                <Col md={6}>
+                                    <img src={require('../assets/Image5.png')} alt=""/>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col className="right2" lg={6}>
+                            <div className="right23">
+                                <h1>Look at what<br/> we’ve done!</h1>
+                                <p>Discover what clients were able to<br/> achieve with Repe.</p>
+                            </div>
+                            <div className="right22">
+                                <button type="button" className="btn btn-primary">View Project Gallery</button>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </section>
+            <section className="section6">
+                <div className="container">
+                    <Row>
+                        <Col lg={6}>
+                            <h1>Let’s work on your project together!</h1>
+                            <div className="wrap">
+                                <button type="button" className="btn btn-primary">Schedule a call</button>
+                            </div>
+
+                        </Col>
+                        <Col lg={6}>
+                            <p>hello@repe.com</p>
+                        </Col>
+                    </Row>
+                </div>
+            </section>
         </div>
     );
 }
